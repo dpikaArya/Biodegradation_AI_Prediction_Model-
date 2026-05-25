@@ -1,3 +1,4 @@
+[requirements.txt](https://github.com/user-attachments/files/28230613/requirements.txt)
 [README.md](https://github.com/user-attachments/files/28230575/README.md)
 # Biodegradation_AI_Prediction_Model-# Biodegradation Prediction Model
 
@@ -28,7 +29,7 @@ The **best performing model** is **Gradient Boosting** with:
 - Test RMSE: 16.75
 - Test MAE: 12.59
 
-
+[REPRODUCIBILITY.md](https://github.com/user-attachments/files/28230616/REPRODUCIBILITY.md)
 ## **Data**
 The raw data is stored in `Biodegradation_ML_Ready.xlsx` and contains experimental data for:
 - **Pollutants**: Resorcinol and p-Cresol
@@ -45,7 +46,8 @@ The workflow is implemented in `biodegradation_workflow.py` and follows these st
 3. **Model Training**: Train Linear Regression, Random Forest, and Gradient Boosting models
 4. **Evaluation**: Calculate R², RMSE, and MAE for all models
 5. **Visualization**: Generate publication-quality plots (predicted vs actual, residuals, feature importance, partial dependence)
-6. **Export**: Save model, metrics, predictions, and plots
+6. **Export**: Save model, metrics, predictions, and plots[biodegradation_model_results.xlsx](https://github.com/user-attachments/files/28230626/biodegradation_model_results.xlsx)
+
 
 
 ## **Installation**
@@ -154,4 +156,4 @@ MIT License. See `LICENSE` for details.
 
 ## **Citation**
 If you use this work, please cite:
-> Anomaly (2026). Biodegradation Prediction Model. GitHub Repository.
+> Arya, D. (2026). Biodegradation Prediction Model. GitHub Repository.
